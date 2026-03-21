@@ -14,8 +14,8 @@ keyboard.add_hotkey('q', lambda: globals().__setitem__('stop_recording', True))
 keyboard.add_hotkey('~', lambda: globals().__setitem__('save_last_30s', True))
 
 # Folders
-save_folder = r"Recorder test\Recordings"
-clip_folder = r"Recorder test\Clips"
+save_folder = r"Recordings"
+clip_folder = r"Clips"
 
 os.makedirs(save_folder, exist_ok=True)
 os.makedirs(clip_folder, exist_ok=True)
