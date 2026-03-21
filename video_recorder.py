@@ -20,8 +20,8 @@ clip_folder = r"Recorder test\Clips"
 os.makedirs(save_folder, exist_ok=True)
 os.makedirs(clip_folder, exist_ok=True)
 
-fps_nominal = 30
-seconds=31
+fps_nominal = 20
+seconds=30
 
 size = fps_nominal * seconds
 buffer = deque(maxlen=size)
