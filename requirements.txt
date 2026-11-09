@@ -1,4 +1,9 @@
-opencv-python
-mss
-keyboard
+dxcam
 numpy
+opencv-python
+keyboard
+PyAudioWPatch>=0.2.12.9
+av>=19.0.2
+imageio-ffmpeg
+# Per-window capture via Windows.Graphics.Capture (optional; without it only full-screen capture is offered)
+windows-capture

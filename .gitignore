@@ -1,0 +1,12 @@
+# Recordings, clips and in-progress encodes
+/Clips/
+/Recordings/
+/Temp/
+
+# Saved UI settings
+/user_settings.json
+/user_settings.json.tmp
+
+# Python bytecode
+__pycache__/
+*.pyc
